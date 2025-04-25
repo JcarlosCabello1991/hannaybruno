@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Mi ama';
+  /* src: url('./fonts/AlexBrush-Regular.ttf'); */
+  src: url('./fonts/Miama.otf');
+}
+/* Alex brush */
+
+body {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Mi ama', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  max-width: 430px;
+  width: 100%;
+  background-color: #64272f;
+}
+
+html{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
