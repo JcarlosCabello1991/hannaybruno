@@ -37,7 +37,7 @@ function App() {
         setShowAdvertise(false)
         setShowDialog(true);
         setCharging(true);
-        const postUser = await fetch("https://invitacion-back.vercel.app/invitados/invitado", {
+        const postUser = await fetch("https://annaybrunoback.vercel.app/invitados/invitado", {
           method:"POST",
           headers:{
             'Content-Type':'application/json',
