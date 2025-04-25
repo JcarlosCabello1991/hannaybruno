@@ -19,18 +19,6 @@ const SpanNombre = styled.span`
   padding-right:10px;
 `
 
-const ButtonMapa = styled.button`
-  margin-top: 30px;
-  width: 150px;
-  height: 40px;
-  border-radius: 15px;
-  border: 0px;
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: white;
-  color: #64272f;
-`
-
 function  Ceremonia(){
 
   return(

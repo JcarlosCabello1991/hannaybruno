@@ -15,22 +15,6 @@ const SectionHotel = styled.div`
   padding-right: 20px;
 `
 
-const Span = styled.span`
-  font-size: 20px;
-  font-style: italic;
-  font-family: 'Montserrat';
-  text-align: justify;
-`
-
-const SpanHotel = styled.span`
-  margin-top: 20px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #42979d;
-`
-
 function Hoteles(){
 
   return(

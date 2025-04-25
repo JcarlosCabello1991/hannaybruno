@@ -1,10 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const ImageSchedule = styled.img`
-  width: 120px;
-  height: 120px;
-`
 const SpanScheduleNew = styled.span`
   @font-face {
     font-family: 'Amsterdam';
