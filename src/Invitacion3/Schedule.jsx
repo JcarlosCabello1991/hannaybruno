@@ -11,6 +11,7 @@ const SpanScheduleNew = styled.span`
   text-align: center;
   font-size: 40px;
   color: white;
+  margin-top: 10px;
 `
 const ButtonMapa = styled.button`
   margin-top: 30px;
@@ -31,6 +32,10 @@ const ImageBride = styled.img`
   border-radius: 15px;
   margin-bottom: 20px;
 `
+const ImageSchedule = styled.img`
+  width: 120px;
+  height: 120px;
+`
 
 function Schedule(){
 
@@ -48,12 +53,14 @@ function Schedule(){
     <SpanScheduleNew style={{textAlign: 'center', paddingLeft: '10px', paddingRight: '20px', color: "white", fontWeight: 'bold'}}>Plan del día:</SpanScheduleNew>
     {/* <SpanScheduleNew style={{textAlign: 'center', paddingLeft: '10px', paddingRight: '20px', fontFamily:'Montserrat', fontSize: '20px', fontStyle: 'italic', color:'white'}}>Salida a las <strong>12:15</strong> desde el parking del parador de La Granja. Por favor, sed puntuales, os lleva Segobus</SpanScheduleNew> */}
     <SpanScheduleNew>Ceremonia - 18:00</SpanScheduleNew>
-    {/* <ImageSchedule src="../../Icono-ceremonia_sin-fondo.png"/> */}
+    <ImageSchedule src="../../ceremoniacat.webp"/>
     <SpanScheduleNew>Cocktail - 18:45</SpanScheduleNew>
-    {/* <ImageSchedule src="../../Icono-coctel_sin-fondo.png"/> */}
+    <ImageSchedule src="../../coctailcat.webp"/>
     <SpanScheduleNew>Banquete - 20:15</SpanScheduleNew>
+    <ImageSchedule src="../../comida.webp"/>
     {/* <ImageSchedule src="../../Icono-banquete_sin-fondo.png"/> */}
     <SpanScheduleNew>Fiesta...¡Hasta que te canses!</SpanScheduleNew>
+    <ImageSchedule src="../../perro.webp"/>
     <SpanScheduleNew style={{fontSize: '25px', fontStyle: 'italic'}}>(En realidad hasta las 04:00 a.m)</SpanScheduleNew>
     {/* <ImageSchedule src="../../Icono-fiesta_sin-fondo.png"/> */}
     {/* <SpanScheduleNew style={{textAlign: 'center', paddingLeft: '10px', paddingRight: '10px', fontFamily:'Montserrat', fontSize: '20px', fontStyle: 'italic'}}>Bus de regreso a<br></br> La Granja - 01:10</SpanScheduleNew> */}
